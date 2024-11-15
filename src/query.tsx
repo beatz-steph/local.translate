@@ -57,15 +57,15 @@ export const Query = () => {
               aria-expanded={open}
               className="w-[200px] justify-between"
             >
-              {source_language || "Select framework..."}
+              {source_language || "Select language..."}
               <ChevronsUpDown className="opacity-50" />
             </Button>
           </PopoverTrigger>
           <PopoverContent className="w-[200px] p-0">
             <Command>
-              <CommandInput placeholder="Search framework..." className="h-9" />
+              <CommandInput placeholder="Search language..." className="h-9" />
               <CommandList>
-                <CommandEmpty>No framework found.</CommandEmpty>
+                <CommandEmpty>No language found.</CommandEmpty>
                 <CommandGroup>
                   {Object.keys(LANGUAGES).map((language) => (
                     <CommandItem
