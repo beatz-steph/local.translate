@@ -43,7 +43,7 @@ function App() {
               <AboutDialog />
               <ModeToggle />
             </nav>
-            <div className="max-w-2xl mx-auto mt-16 flex flex-col items-center px-5 lg:px-0">
+            <div className="max-w-2xl mx-auto mt-8 lg:mt-16 flex flex-col items-center px-5 lg:px-0">
               <h1 className="text-4xl lg:text-5xl font-bold text-center py-4 mt-10 tracking-tighter lg:tracking-tighter">
                 ML-powered multilingual translation, directly in your browser
               </h1>
