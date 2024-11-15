@@ -37,7 +37,7 @@ function App() {
                   />
                 </svg>
                 <p className="text-xs font-bold border-t border-b py-1 border-foreground w-fit">
-                  Local.<span className="font-light">Translate</span>
+                  ML.<span className="font-light">Translation</span>
                 </p>
               </div>
               <AboutDialog />
