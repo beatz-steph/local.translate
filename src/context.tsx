@@ -1,13 +1,4 @@
-import { pipeline, TranslationPipeline } from "@huggingface/transformers";
-
-import {
-  createContext,
-  ReactNode,
-  useContext,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import { createContext, ReactNode, useContext, useRef, useState } from "react";
 import { LANGUAGES } from "./languages";
 import { useTranslationWorker } from "./use-worker";
 
