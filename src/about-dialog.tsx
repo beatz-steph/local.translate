@@ -18,6 +18,7 @@ export const AboutDialog = () => {
           <a
             href="https://huggingface.co/spaces/Xenova/react-translator"
             target="_blank"
+            className="underline font-bold"
           >
             Xenova React Translator
           </a>
